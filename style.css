@@ -1,0 +1,405 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        /* background-color: #24252A; */
+    }
+    
+    span {
+        color: red;
+    }
+    
+    .chro {
+        display: inline;
+        float: right;
+        justify-content: flex-start;
+        font-weight: 10%;
+        font-size: 3ch;
+        margin-top: 8px;
+        padding: 12px 10px 10px 28px;
+        color: beige;
+    }
+    /* marquee {
+margin-top: 20px;
+padding: 14px;
+font-size: 3ch;
+color: aliceblue;
+}
+*/
+    
+    .navbar li a:hover {
+        color: rgb(86, 195, 222);
+    }
+    
+    .navv {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    li,
+    a {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 10%;
+        font-size: 15px;
+        color: aliceblue;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .name {
+        text-align: center;
+        font-weight: 1000;
+        text-shadow: 1ch;
+        color: rgb(186, 140, 232);
+    }
+    
+    .navbar {
+        background-color: #000;
+        justify-content: flex-end;
+        display: flex;
+        align-items: right;
+        text-align: right;
+        margin-top: px;
+    }
+    
+    .navbar li {
+        display: flex;
+        list-style: none;
+        padding: 7px 1px;
+        float: left;
+        border-radius: 2%;
+        /* justify-content: space-between; */
+    }
+    
+    .navbar li a {
+        padding: 10px 10px;
+        text-align: center;
+        margin: 15px 5px;
+        /* border-radius: 50px; */
+    }
+    
+    .imgkuku {
+        display: flexbox;
+        align-items: center;
+    }
+    
+    .text:hover {
+        /* background-color: rgb(208, 212, 175); */
+        color: rgb(72, 135, 177);
+    }
+    
+    .text {
+        margin: 10px 10px 10px 40px;
+        word-break: keep-all;
+        height: 300px;
+        width: 600px;
+        border: 1px solid #000000;
+        overflow: hidden;
+        /* text-overflow: clip; */
+        padding-left: 22px;
+        font-weight: 100;
+        font-size: 2.5ch;
+        word-spacing: 2px;
+        padding: 30px;
+        color: #47464e;
+    }
+    
+    .img {
+        height: 300px;
+        margin: 0px 40px 10px 150px;
+        align-items: center;
+    }
+    
+    #home {
+        display: flex;
+    }
+    /* #home::before {
+content: '';
+position: absolute;
+top: 0;
+right: 0;
+background: url('images\akshita.jpeg') no-repeat center center/cover;
+height: 900px;
+width: 100%;
+z-index: -1;
+} */
+    
+    .headings {
+        padding: 10px 40px 5px 30px;
+        color: rgb(213, 136, 198);
+    }
+    
+    .headingchildhood {
+        color: rgb(144, 144, 239);
+        padding: 0px 0px 1px 19px;
+    }
+    
+    .childhood:hover {
+        background-color: rgb(78, 12, 23);
+        color: rgb(189, 189, 174);
+    }
+    
+    .childhood {
+        text-align: right;
+        margin: 18px 10px 10px 40px;
+        word-break: keep-all;
+        height: 300px;
+        width: 785px;
+        border: 1px solid #000000;
+        border-radius: 9px;
+        /* text-overflow: clip; */
+        padding-left: 22px;
+        font-weight: 100;
+        font-size: 2.8ch;
+        word-spacing: 2px;
+        padding: 30px;
+        color: #47464e;
+    }
+    
+    .magicalChildhood {
+        padding: 1px 0px 0px 1px;
+        color: aquamarine;
+    }
+    
+    .havan {
+        height: 300px;
+        margin-top: 0px;
+        padding-top: 0;
+    }
+    
+    body {
+        background-color: #000;
+    }
+    /* .priti {
+    display: flex;
+    height: 300px;
+}
+
+.priti1:hover {
+    color: rgb(62, 86, 78);
+    background-color: rgb(46, 47, 49);
+}
+
+.k {
+    color: rgb(197, 164, 124);
+}
+
+.hehe {
+    border-radius: 8px;
+}
+
+.priti1 {
+    border: 1px solid #000;
+    color: cornsilk;
+    text-align: left;
+    font-size: 2.2ch;
+    height: 300px;
+    width: 370px;
+    padding: 18px 10px 8px 12px;
+    font-weight: 100;
+    margin: 0px 5px 10px 40px;
+    word-spacing: 2px;
+    border-radius: 6px;
+}
+
+.img1 {
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    z-index: -1;
+} */
+    
+    .maharani {
+        display: flex;
+    }
+    
+    .rani {
+        border: #000 solid;
+        height: 250px;
+        width: 1050px;
+        padding: 12px 4px 6px 6px;
+        border-radius: 6px;
+        font-size: 2.7ch;
+        text-align: center;
+        color: rgb(124, 98, 62);
+        margin-left: 5px;
+    }
+    
+    .rani:hover {
+        text-shadow: #dab7b7;
+        color: rgb(13, 59, 38);
+        background-color: #525253;
+    }
+    
+    .ahliy {
+        color: rgb(227, 157, 157);
+        padding: 15px 15px 10px 5px;
+    }
+    
+    .maharanapratap {
+        display: flex;
+    }
+    
+    .ranaji {
+        height: 280px;
+    }
+    
+    .paratap {
+        color: rgb(227, 157, 157);
+        padding: 15px 15px 10px 5px;
+    }
+    
+    .rana:hover {
+        text-shadow: #dab7b7;
+        color: rgb(13, 59, 38);
+        background-color: #525253;
+    }
+    
+    .rana {
+        border: #000 solid;
+        height: 280px;
+        width: 1050px;
+        padding: 12px 4px 6px 6px;
+        border-radius: 6px;
+        font-size: 2.7ch;
+        text-align: center;
+        color: rgb(124, 98, 62);
+        margin-left: 5px;
+    }
+    
+    .temple {
+        display: flex;
+    }
+    
+    .jaipur {
+        display: flex;
+    }
+    
+    .SWimmingTsxt {
+        color: rgb(111, 196, 232);
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+    
+    .swimming {
+        display: flex;
+    }
+    
+    .imgSwim {
+        height: 380px;
+        margin-top: -29px;
+    }
+    
+    .swimText {
+        color: #47464e;
+        border: #000 solid;
+        height: 280px;
+        width: 1050px;
+        padding: 12px 4px 6px 6px;
+        border-radius: 6px;
+        font-size: 2.7ch;
+        text-align: left;
+        ;
+        margin: 25px 10px 10px 10px;
+    }
+    
+    .swimText:hover {
+        text-shadow: #dab7b7;
+        color: rgb(86, 148, 219);
+        /* background-color: #525253; */
+    }
+    
+    .badHEAd {
+        color: rgb(135, 78, 78);
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+    
+    .badminton {
+        display: flex;
+    }
+    
+    .badminImg {
+        height: 310px;
+        margin-top: 5px;
+        padding: 0px 15px 20px 15px;
+    }
+    
+    .badminText {
+        color: #47464e;
+        border: #000 solid;
+        height: 280px;
+        width: 1050px;
+        padding: 1px 4px 6px 6px;
+        border-radius: 6px;
+        font-size: 2.5ch;
+        text-align: left;
+        ;
+        margin: 35px 10px 10px 10px;
+    }
+    
+    .badminText:hover {
+        /* text-shadow: #dab7b7; */
+        color: rgb(97, 138, 114);
+        /* background-color: #525253; */
+    }
+    
+    .inspHeading {
+        text-align: center;
+        color: rgb(90, 53, 126);
+        margin-bottom: 10px;
+    }
+    
+    .photography {
+        display: flex;
+        border-spacing: 25px;
+        padding-left: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+    }
+    
+    .photoImg {
+        height: 200px;
+        border: 2px solid white;
+        margin: 20px 10px 10px 15px;
+        border-radius: 7px;
+    }
+    
+    .rose {
+        color: rgb(234, 197, 197);
+    }
+    
+    .roseText {
+        color: #575764;
+        font-size: 2.4ch;
+        border: 2px solid black;
+        margin: 20px 10px 10px 15px;
+        padding-bottom: 50px;
+        padding: 20px 20px 50px 20px;
+        text-align: center;
+    }
+    
+    .roseText:hover {
+        color: rgb(243, 211, 211);
+    }
+    
+    .lesson {
+        color: #a2a2ec;
+        font-size: 3.4ch;
+        border: 2px solid black;
+        margin: 20px 10px 10px 15px;
+        padding-bottom: 50px;
+        padding: 20px 20px 50px 20px;
+    }
+    
+    .lesson2 {
+        padding-bottom: 20px;
+    }
+    
+    .lesson1 {
+        color: rgb(77, 116, 199);
+        padding: 10px 10px 10px 10px;
+        text-align: left;
+    }

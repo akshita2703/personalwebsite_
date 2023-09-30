@@ -1,0 +1,217 @@
+    * {
+        box-sizing: border-box
+    }
+    
+    .mySlides {
+        display: none;
+    }
+    
+    .mySlides1 {
+        display: none;
+    }
+    
+    .img {
+        margin-left: 5px;
+        height: 300px;
+    }
+    
+    .img1 {
+        margin-left: 5px;
+        height: 250px;
+    }
+    /* Slideshow container */
+    
+    .slideshow-container {
+        position: relative;
+        margin: 10px -10px 0px 0px;
+    }
+    
+    .slideshow-container-jaipur {
+        position: relative;
+        margin: 10px -10px 0px 0px;
+    }
+    /* Next & previous buttons */
+    
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    
+    .prev1,
+    .next1 {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    /* Position the "next button" to the right */
+    
+    .next {
+        right: 800px;
+        left: 84%;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    .next1 {
+        right: 700px;
+        left: 93%;
+        border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .prev1:hover,
+    .next1:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    /* Caption text */
+    /* The dots/bullets/indicators */
+    
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        transition: background-color 0.6s ease;
+        display: inline-block;
+        position: left 0;
+    }
+    
+    .dot1 {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        transition: background-color 0.6s ease;
+        display: inline-block;
+        position: left 0;
+    }
+    
+    .active,
+    .dot:hover {
+        background-color: #717171;
+    }
+    
+    .active,
+    .dot1:hover {
+        background-color: #717171;
+    }
+    /* Fading animation */
+    
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    .fade1 {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    @keyframes fade1 {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    .amrit {
+        color: rgb(160, 99, 24);
+        font-size: 2.5ch;
+        margin: 10px 10px 10px 0px;
+        word-break: keep-all;
+        height: 300px;
+        width: 810px;
+        border: 1px solid #000000;
+        border-radius: 6px;
+        text-overflow: clip;
+        /* padding-left: 100px; */
+        font-weight: 100;
+        /* font-size: 2.5ch; */
+        word-spacing: 2px;
+        padding: 10px 10px 10px 10px;
+        /* color: #47464e; */
+        text-align: center;
+        padding-top: 19px;
+    }
+    
+    .amrit:hover {
+        background-color: #1e1d1d;
+        color: rgba(240, 234, 75, 0.854);
+    }
+    
+    .headingTemple {
+        color: rgb(234, 143, 46);
+        text-transform: uppercase;
+        padding-left: 10px;
+    }
+    
+    .headingJaipur {
+        margin-top: 15px;
+        color: pink;
+        text-transform: uppercase;
+        padding-left: 10px;
+    }
+    
+    .jai {
+        color: rgb(160, 99, 24);
+        font-size: 2.5ch;
+        margin: 0px 10px 10px 40px;
+        word-break: keep-all;
+        height: 275px;
+        width: 770px;
+        border: 1px solid #000000;
+        border-radius: 6px;
+        /* text-overflow: clip; */
+        /* padding-left: 100px; */
+        font-weight: 100;
+        /* font-size: 2.5ch; */
+        word-spacing: 2px;
+        padding: 10px 10px 10px 10px;
+        /* color: #47464e; */
+        text-align: center;
+        padding-top: 19px;
+    }
+    
+    .jai:hover {
+        background-color: #1e1d1d;
+        color: rgba(202, 87, 168, 0.854);
+    }
